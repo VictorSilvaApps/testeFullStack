@@ -25,5 +25,6 @@ Using Spring Data JDBC
 Accessing Data with JPA
 Validation
 Building a RESTful Web Service with Spring Boot Actuator
-Maven Parent overrides
+Maven Parent overrides![Conceitual_1](https://github.com/user-attachments/assets/0e63f110-bdb8-4019-8cf0-e568390ff64b)
+
 Due to Maven's design, elements are inherited from the parent POM to the project POM. While most of the inheritance is fine, it also inherits unwanted elements like <license> and <developers> from the parent. To prevent this, the project POM contains empty overrides for these elements. If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
